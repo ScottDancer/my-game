@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scores"></div>
+    <div class="timer">time: <span id="time">0</span></div>
+    <main>
+      <div id="start">
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+          Try to answer the following code related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by ten seconds
+        </p>
+        <button id="startBtn">Start Quiz</button>
+      </div>
+      <div id="questions" class="hide">
+        <h2 id="question-titles">hello</h2>
+        <div id="choices"></div>
+      </div>
+      <div id="end-screen" class="hide">
+        <h2>All done</h2>
+        <p>Your final score is <span id="final-score"></span></p>
+        <p>Enter your initials: <input type="text" id="initials"/></p>
+        <button id="submitHighscore">Submit</button>
+      </div>
+      <div id="highscores" class="hide">
+        
+        <button id="play-again">Play Again</button>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
